@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="assets/images/favicon.png" type="image/png">
+		<title>SmileSchool</title>
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+
+		<!-- Hero Section -->
+		<section class="hero hero--pricing">
+			<header
+				class="pb-4 container-md my-0 mx-auto d-flex flex-column flex-md-row align-items-md-center pt-md-4 justify-content-md-between">
+
+				<input type="checkbox" id="menu-btn" class="menu-btn d-none">
+				<label for="menu-btn" class="menu-icon position-absolute d-md-none">
+					<span class="navicon d-block position-relative rounded bg-light"></span>
+				</label>
+
+				<div class="compose-logo d-flex align-items-center flex-column mx-auto mt-5 mb-0 flex-md-row m-md-0">
+					<figure class="icon-container m-0">
+						<img class="img-fluid" src="assets/images/smile_off.png" alt="SmileSchool icon">
+					</figure>
+					<figure class="logo-container m-0">
+						<img class="img-fluid" src="assets/images/logo.png" alt="SmileSchool logo">
+					</figure>
+				</div>
+
+				<nav class="nav-menu text-uppercase">
+					<ul class="nav-menu__list m-0 p-0 text-center d-flex flex-column list-unstyled flex-md-row">
+						<li class="nav-menu__item w-100">
+							<a class="nav-menu__link text-decoration-none p-2 d-block position-relative"
+								href="courses.html">Courses</a>
+						</li>
+						<li class="nav-menu__item w-100">
+							<a class="nav-menu__link text-decoration-none p-2 d-block position-relative"
+								href="pricing.html">Pricing</a>
+						</li>
+						<li class="nav-menu__item w-100 ">
+							<a class="nav-menu__link text-decoration-none p-2 d-block position-relative"
+								href="homepage.html">Login</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<div class="text-zone text-center container-lg text-light">
+				<div class="pricing-main-text container mx-auto mt-0">
+					<p class="d-inline-block mb-0">What is</p>
+					<figure class="inline-img-smile d-inline-block mx-1 mb-0">
+						<img class="pb-2 img-fluid" src="assets/images/smile_off.png">
+					</figure>
+					<span class="coiny font-weight-normal">SmileSchool</span>
+					<p class="d-inline-block mb-0">?</p>
+				</div>
+				<p class="font-weight-bolder m-0">Go Pro!</p>
+			</div>
+
+			<!-- Prices Section -->
+			<section class="prices-section text-center">
+				<div class="container">
+					<div class="row">
+						<div class="d-none d-md-block col-md-4 price-container"></div>
+						<div class="col col-md-4 price-container">
+							<button class="btn main-btn rounded-pill text-light">Buy 3 months</button>
+							<p class="price-container__text mt-3 mb-1 font-weight-bold">$3.60</p>
+							<p class="text-secondary m-0">$1.20/month</p>
+						</div>
+						<div class="col col-md-4 price-container">
+							<button class="btn main-btn rounded-pill text-light">Buy 1 year</button>
+							<p class="price-container__text mt-3 mb-1 font-weight-bold">$12.99</p>
+							<p class="text-secondary m-0">$1.08/month</p>
+						</div>
+					</div>
+				</div>
+
+				<table class="table table-borderless text-light container">
+					<thead class="container">
+						<tr class="row mx-0 border-bottom border-secondary">
+							<th class="col-6 col-md-4 columns-heading-table font-weight-bolder text-uppercase" scope="col">&nbsp;</th>
+							<th class="col-3 col-md-4 columns-heading-table font-weight-bolder text-uppercase d-md-none" scope="col">3
+								Months
+							</th>
+							<th class="col-3 col-md-4 columns-heading-table font-weight-bolder text-uppercase d-md-none" scope="col">1
+								Year
+							</th>
+						</tr>
+					</thead>
+					<tbody class="container">
+						<tr class="row mx-0 border-bottom border-secondary">
+							<th class="col-6 col-md-4 left-table text-left font-weight-light" scope="row">Unlimitted access to all
+								tutorials
+							</th>
+							<td class="col-3 col-md-4"><span class="check-icon holberton_school-icon-check"></span></td>
+							<td class="col-3 col-md-4"><span class="check-icon holberton_school-icon-check"></span></td>
+						</tr>
+
+						<tr class="row mx-0 border-bottom border-secondary">
+							<th class="col-6 col-md-4 left-table text-left font-weight-light" scope="row">Access SmileSchool private
+								forum
+							</th>
+							<td class="col-3 col-md-4"><span class="check-icon holberton_school-icon-check"></span></td>
+							<td class="col-3 col-md-4"><span class="check-icon holberton_school-icon-check"></span></td>
+						</tr>
+
+						<tr class="row mx-0 border-bottom border-secondary">
+							<th class="col-6 col-md-4 left-table text-left font-weight-light" scope="row">Access Smiles contests &
+								Smiles Analysis
+							</th>
+							<td class="col-3 col-md-4"><span class="check-icon holberton_school-icon-check"></span></td>
+							<td class="col-3 col-md-4"><span class="check-icon holberton_school-icon-check"></span></td>
+						</tr>
+
+						<tr class="row mx-0 border-bottom border-secondary">
+							<th class="col-6 col-md-4 left-table text-left font-weight-light" scope="row">Get a free toothbrush
+							</th>
+							<td class="col-3 col-md-4">&nbsp;</td>
+							<td class="col-3 col-md-4"><span class="check-icon holberton_school-icon-check"></span></td>
+						</tr>
+
+						<tr class="row mx-0 mt-2 border-secondary">
+							<th class="col-6 col-md-4 left-table text-left font-weight-light" scope="row">
+								<figure class="table-img">
+									<img class="img-fluid" src=" assets/images/signal.png" alt="">
+								</figure>
+								<p>Exclusive discount on all Signal products</p>
+							</th>
+							<td class="col-3 col-md-4">&nbsp;</td>
+							<td class="col-3 col-md-4"><span class="check-icon holberton_school-icon-check"></span></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</section>
+		</section>
+		<!-- Reviews Section -->
+		<section class="review-section">
+			<div id="carouselExampleInterval" class="carousel slide container" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-interval="10000">
+						<div class="review">
+							<figure class="review__profile-container mx-auto mx-md-0">
+								<img class="img-fluid rounded-circle" src="assets/images/profile_5.jpg" alt="Person name profile photo">
+							</figure>
+							<div class="review__text-container px-2">
+								<p class="font-weight-ligth my-4">« Those tutorials are concise and go straight to the point. I can’t
+									think of a better place to learn
+									smiling.
+									And it’s so fun!</p>
+								<p class="font-weight-bold mb-0">Person Name</p>
+								<p class="font-italic font-weight-light m-0">weather presenter</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item" data-interval="2000">
+						<div class="review">
+							<figure class="review__profile-container mx-auto mx-md-0">
+								<img class="img-fluid rounded-circle" src="assets/images/profile_5.jpg" alt="Person name profile photo">
+							</figure>
+							<div class="review__text-container px-2">
+								<p class="font-weight-ligth my-4">« Those tutorials are concise and go straight to the point. I can’t
+									think of a better place to learn
+									smiling.
+									And it’s so fun!</p>
+								<p class="font-weight-bold mb-0">Person Name</p>
+								<p class="font-italic font-weight-light m-0">weather presenter</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item" data-interval="2000">
+						<div class="review">
+							<figure class="review__profile-container mx-auto mx-md-0">
+								<img class="img-fluid rounded-circle" src="assets/images/profile_5.jpg" alt="Person name profile photo">
+							</figure>
+							<div class="review__text-container px-2">
+								<p class="font-weight-ligth my-4">« Those tutorials are concise and go straight to the point. I can’t
+									think of a better place to learn
+									smiling.
+									And it’s so fun!</p>
+								<p class="font-weight-bold mb-0">Person Name</p>
+								<p class="font-italic font-weight-light m-0">weather presenter</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item" data-interval="2000">
+						<div class="review">
+							<figure class="review__profile-container mx-auto mx-md-0">
+								<img class="img-fluid rounded-circle" src="assets/images/profile_5.jpg" alt="Person name profile photo">
+							</figure>
+							<div class="review__text-container px-2">
+								<p class="font-weight-ligth my-4">« Those tutorials are concise and go straight to the point. I can’t
+									think
+									of a better place to learn
+									smiling.
+									And it’s so fun!</p>
+								<p class="font-weight-bold mb-0">Person Name</p>
+								<p class="font-italic font-weight-light m-0">weather presenter</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-btn carousel-btn--left carousel-control-prev bg-transparent border-0 pr-2 pl-3 px-md-1"
+					type="button" data-target="#carouselExampleInterval" data-slide="prev">
+					<img class="img-fluid" src="assets/images/arrow_white_left.png">
+				</button>
+				<button class="carousel-btn carousel-btn--right carousel-control-next bg-transparent border-0 pl-2 pr-3 px-md-1"
+					type="button" data-target="#carouselExampleInterval" data-slide="next">
+					<img class="img-fluid" src="assets/images/arrow_white_right.png">
+				</button>
+			</div>
+
+		</section>
+
+		<!-- FAQ Section -->
+		<section class="faq-section">
+			<div class="faq-container container">
+				<h2 class="faq-container__title text-dark text-center">F.A.Q.</h2>
+				<div class="faq-row row">
+
+					<div class="faq-item col-12 col-md-6 col-lg-5">
+						<h3 class="faq-item__title text-left font-weight-bolder text-dark">How does this work?</h3>
+						<p class=" faq-item__text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor
+							incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+							ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+							deserunt mollit anim id est laborum.</p>
+					</div>
+
+					<div class="faq-item col-12 col-md-6 col-lg-5 offset-lg-2">
+						<h3 class="faq-item__title text-left font-weight-bolder text-dark">How does this work?</h3>
+						<p class=" faq-item__text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor
+							incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+							ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+							deserunt mollit anim id est laborum.</p>
+					</div>
+
+					<div class="faq-item col-12 col-md-6 col-lg-5">
+						<h3 class="faq-item__title text-left font-weight-bolder text-dark">How does this work?</h3>
+						<p class=" faq-item__text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor
+							incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+							ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+							deserunt mollit anim id est laborum.</p>
+					</div>
+
+					<div class="faq-item col-12 col-md-6 col-lg-5 offset-lg-2">
+						<h3 class="faq-item__title text-left font-weight-bolder text-dark">How does this work?</h3>
+						<p class=" faq-item__text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor
+							incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+							ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+							fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+							deserunt mollit anim id est laborum.</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer text-center">
+			<div class="footer-info d-md-flex justify-content-md-between px-md-5 container">
+				<div class="footer-info__left d-flex mx-auto align-items-center mx-md-0">
+					<figure class="footer-smile-container mb-0">
+						<img class="img-fluid" src="assets/images/smile_off.png">
+					</figure>
+					<figure class="footer-icon-container mb-0">
+						<img class="img-fluid" src="assets/images/logo.png">
+					</figure>
+				</div>
+				<div class="footer-info__right my-5">
+					<a class="social_link text-light text-decoration-none" href="#" target="_blank" rel="noopener">
+						<span class="holberton_school-icon-ic_facebook"></span>
+					</a>
+					<a class="social_link text-light text-decoration-none mx-3" href="#" target="_blank" rel="noopener">
+						<span class="holberton_school-icon-ic_twitter"></span>
+					</a>
+					<a class="social_link text-light text-decoration-none" href="#" target="_blank" rel="noopener">
+						<span class="holberton_school-icon-ic_instagram"></span>
+					</a>
+				</div>
+			</div>
+			<p class="text-muted mb-0">&copy;smileschool 2020</p>
+		</footer>
+	</body>
+
+</html>
