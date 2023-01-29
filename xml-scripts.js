@@ -189,7 +189,7 @@ const getVideos = () => {
         const self = $(this);
         const thumbUrl = self.find("thumb_url").text();
         const title = self.find("title").text();
-        const subTitle = self.find("subTitle").text();
+        const subTitle = self.find("sub-title").text();
         const authorPicUrl = self.find("author_pic_url").text();
         const author = self.find("author").text();
         const star = self.attr("star");
@@ -264,7 +264,6 @@ const getCourses = () => {
 
       const res = $(data);
       const resQuantity = res.find("courses > course").length;
-      console.log(res.find("courses > course").length);
       courseQuantity.text(`${resQuantity} video${resQuantity !== 1 ? "s" : ""}`);
 
       resultsContainer.empty();
